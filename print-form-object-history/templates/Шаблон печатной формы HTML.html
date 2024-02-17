@@ -1,0 +1,63 @@
+<style type="text/css">
+    table {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+    }
+    td,
+    th {
+        padding: 8px 16px 8px 16px;
+          width: auto;
+    }
+      
+    td.eventDate {
+      min-width: 85px;
+      max-width: 85px;
+    }
+    
+    tr:hover {
+        background-color: #ddd;
+    }
+    tr {
+          vertical-align: top;
+      }
+    th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #ffffff;
+        color: black;
+    }
+    </style>
+    
+    <table style="width: 100%;">
+        <tbody>
+          <tr fr-original-style="" style="user-select: none;" valign="top">
+            <td valign="top" width="50%" class="header" style="
+        vertical-align: middle;">
+              <img id="Logo" src="data:image/png;base64,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">
+                </td>
+              <td valign="top" width="50%" style="text-align: right; vertical-align: middle;" class="header">${modules.generateHtml.generateQR(subject)}</td>
+              </tr>
+        </tbody>
+    </table>
+    
+    <table>
+        <tbody>
+            <tr>
+                <th>${api.metainfo.getMetaClass(subject).title}</th>
+                <th>${subject.title}</th>
+            </tr>
+            ${modules.generateHtml.generateDescription(subject,user)}
+        </tbody>
+    </table>
+      
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <th class="timelineHeader">Время</th>
+                <th class="timelineHeader">Событие</th>
+                <th class="timelineHeader">Подробности</th>
+            </tr>
+            ${modules.generateHtml.generateTimeline(subject,user)}
+        </tbody>
+    </table>
